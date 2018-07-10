@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>The fruit du jour is:</h1>
+	
+	<% for(let i = 0; i < fruitsList.length; i++){ %>
+		
+		<a href="/Fruits/<%= i %>"><h2><%= fruitsList[i].name%></h2>
+
+<% } %>
+
+</body>
+</html>
